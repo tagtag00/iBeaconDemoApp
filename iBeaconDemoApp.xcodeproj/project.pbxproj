@@ -14,6 +14,7 @@
 		D42D1CAD1BE1ED7A00B8104F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42D1CAB1BE1ED7A00B8104F /* LaunchScreen.storyboard */; };
 		D42D1CB81BE1ED7B00B8104F /* iBeaconDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42D1CB71BE1ED7B00B8104F /* iBeaconDemoAppTests.swift */; };
 		D42D1CC31BE1ED7B00B8104F /* iBeaconDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42D1CC21BE1ED7B00B8104F /* iBeaconDemoAppUITests.swift */; };
+		D42D1CD11BE1EDD300B8104F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42D1CD01BE1EDD300B8104F /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D42D1CBE1BE1ED7B00B8104F /* iBeaconDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBeaconDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42D1CC21BE1ED7B00B8104F /* iBeaconDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBeaconDemoAppUITests.swift; sourceTree = "<group>"; };
 		D42D1CC41BE1ED7B00B8104F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D42D1CD01BE1EDD300B8104F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42D1CD11BE1EDD300B8104F /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		D42D1C961BE1ED7A00B8104F = {
 			isa = PBXGroup;
 			children = (
+				D42D1CD01BE1EDD300B8104F /* CoreLocation.framework */,
 				D42D1CA11BE1ED7A00B8104F /* iBeaconDemoApp */,
 				D42D1CB61BE1ED7B00B8104F /* iBeaconDemoAppTests */,
 				D42D1CC11BE1ED7B00B8104F /* iBeaconDemoAppUITests */,
